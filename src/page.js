@@ -1,10 +1,10 @@
 import buildHeader from './header';
-import buildMain from './main';
+import buildBody from './body';
 import buildFooter from './footer';
 
 function buildPage() {
   buildHeader();
-  buildMain();
+  buildBody();
   buildFooter();
 }
 
