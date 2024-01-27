@@ -25,11 +25,24 @@ header {
   text-align: center;
 }
 
+/* div {
+  border: 1px solid red;
+} */
+
 main {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  #largeDiv {
+    width: 500px;
+  }
+  .inactive {
+    display: none;
+  }
   img {
-  width: 400px;
-}
+    width: 100%;
+  }
 }
 
 footer {
