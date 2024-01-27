@@ -1,6 +1,6 @@
-# ESLint (and Webpack) Template
+# Image Slider (Image Carousel)
 
-A template for projects that need Webpack and ESLint.
+A practice project for the Dynamic User Interactions lesson
 
 ## About the Project
 
@@ -16,18 +16,20 @@ A template for projects that need Webpack and ESLint.
 
 ### Objective
 
-The goal of the project is to learn xyz by building abc.
+The goal of the project is to learn dynamic user interactions by building an
+image slider.
 
 ###### Project Statement
 
-<a href='http://theodinproject.com/'>The Odin Project</a> (Month Year)
+<a href='https://www.theodinproject.com/lessons/node-path-javascript-dynamic-user-interface-interactions'>The Odin Project</a> (Jan '24)
 
 ### Features
 
-- Add something
-- Edit something
-- Remove something
-- Allow users to complicate dev's job
+- An image carousel holds a few images
+- There are an arrow on the left and an arrow on the right
+- The images automatically move forward every 5 seconds
+- The slider contains navigation circles at the bottom
+- The navigation circles are clickable
 
 ## Built With
 
@@ -38,13 +40,12 @@ The goal of the project is to learn xyz by building abc.
 
 ## To-Do
 
-- [x] Understand the objectives
+- [x] Set up repository and core files
+- [ ] Understand the objectives
 - [ ] Plan
   - [ ] Logic
   - [ ] UI
-- [ ] Fix bugs
-  - [ ] Wrong date
-  - [ ] Layout on resize
+- [ ] User-proofing
 
 ## Lessons & Difficulties
 
