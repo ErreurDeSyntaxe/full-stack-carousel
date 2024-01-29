@@ -6,7 +6,7 @@ import Chess from './img/chess.png';
 // import Tree from './img/tree.png';
 
 function loadImages() {
-  const largeDiv = document.getElementById('largeDiv');
+  const slideshowDiv = document.getElementById('slideshowDiv');
 
   const catsImg = document.createElement('img');
   const caveImg = document.createElement('img');
@@ -56,12 +56,12 @@ function loadImages() {
   // div5.appendChild(reaperImg);
   // div6.appendChild(treeImg);
 
-  largeDiv.appendChild(div1);
-  largeDiv.appendChild(div2);
-  largeDiv.appendChild(div3);
-  // largeDiv.appendChild(div4);
-  // largeDiv.appendChild(div5);
-  // largeDiv.appendChild(div6);
+  slideshowDiv.appendChild(div1);
+  slideshowDiv.appendChild(div2);
+  slideshowDiv.appendChild(div3);
+  // slideshowDiv.appendChild(div4);
+  // slideshowDiv.appendChild(div5);
+  // slideshowDiv.appendChild(div6);
 }
 
 export default loadImages;

@@ -3,7 +3,7 @@ import loadImages from './images';
 function buildBody() {
   const body = document.querySelector('body');
   const main = document.createElement('main');
-  const largeDiv = document.createElement('div');
+  const slideshowDiv = document.createElement('div');
   const arrowLeft = document.createElement('button');
   const arrowRight = document.createElement('button');
   const circleDiv = document.createElement('div');
@@ -16,21 +16,26 @@ function buildBody() {
   circle1.classList.add('circle');
   circle2.classList.add('circle');
   circle3.classList.add('circle');
+  circle1.textContent = '--1--';
+  circle2.textContent = '--2--';
+  circle3.textContent = '--3--';
 
-  largeDiv.setAttribute('id', 'largeDiv');
+  slideshowDiv.setAttribute('id', 'slideshowDiv');
   arrowLeft.classList.add('arrow');
   arrowLeft.classList.add('left');
+  arrowLeft.textContent = '<<<';
   arrowRight.classList.add('arrow');
   arrowRight.classList.add('right');
+  arrowRight.textContent = '>>>';
 
-  main.appendChild(largeDiv);
+  main.appendChild(arrowLeft);
+  main.appendChild(slideshowDiv);
+  main.appendChild(arrowRight);
   body.appendChild(main);
   circleDiv.appendChild(circle1);
   circleDiv.appendChild(circle2);
   circleDiv.appendChild(circle3);
-  main.appendChild(circleDiv);
-  main.appendChild(arrowLeft);
-  main.appendChild(arrowRight);
+  body.appendChild(circleDiv);
 
   loadImages();
 }
