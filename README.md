@@ -41,7 +41,7 @@ image slider.
 ## To-Do
 
 - [x] Set up repository and core files
-- [ ] Understand the objectives
+- [x] Understand the objectives
 - [ ] Plan
   - [ ] Logic
   - [ ] UI
