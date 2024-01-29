@@ -35,9 +35,10 @@ function buildBody() {
   circleDiv.appendChild(circle1);
   circleDiv.appendChild(circle2);
   circleDiv.appendChild(circle3);
-  body.appendChild(circleDiv);
 
   loadImages();
+
+  slideshowDiv.appendChild(circleDiv);
 }
 
 export default buildBody;
