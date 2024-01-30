@@ -5,7 +5,7 @@
 
 import './style.css';
 import buildPage from './page';
-import slideImages from './slide';
+import { slideImages } from './slide';
 
 buildPage();
-slideImages();
+slideImages(0);

@@ -27,7 +27,8 @@ body {
 
 main {
   flex: 1;
-  
+  padding: 1rem;
+
   img {
     width: 200px;
     height: 100%;
