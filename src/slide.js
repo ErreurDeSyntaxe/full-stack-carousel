@@ -24,9 +24,15 @@ function arrowImage(direction) {
     slideImages(arrayIndex - 1);
   }
 
-  if (direction === '>>>') {
+  if (direction === '>>>' || direction === null) {
     slideImages(arrayIndex + 1);
   }
 }
 
-export { slideImages, arrowImage };
+function timedSlide(timerLength) {
+  setInterval(() => {
+    arrowImage('>>>');
+  }, timerLength);
+}
+
+export { slideImages, arrowImage, timedSlide };

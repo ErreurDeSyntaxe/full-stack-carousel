@@ -5,7 +5,8 @@
 
 import './style.css';
 import buildPage from './page';
-import { slideImages } from './slide';
+import { slideImages, timedSlide } from './slide';
 
 buildPage();
 slideImages(0);
+timedSlide(5000);
