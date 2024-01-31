@@ -12,7 +12,7 @@ A practice project for the Dynamic User Interactions lesson
 
 ### Live
 
-<a href='http://google.com/'>Google</a>
+<a href='https://erreurdesyntaxe.github.io/full-stack-carousel/'>Image Slide (warning: bare CSS)</a>
 
 ### Objective
 
