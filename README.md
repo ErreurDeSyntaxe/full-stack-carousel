@@ -42,10 +42,9 @@ image slider.
 
 - [x] Set up repository and core files
 - [x] Understand the objectives
-- [ ] Plan
-  - [ ] Logic
-  - [ ] UI
-- [ ] User-proofing
+- [x] Plan
+  - [x] Logic
+  - [x] UI: no UI
 
 ## Lessons & Difficulties
 
